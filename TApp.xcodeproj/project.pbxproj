@@ -1,0 +1,1207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B783044BA6F8DD57B39B91C /* TAppKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A7F4B3BA15CADFF6111F4 /* TAppKitTests.swift */; };
+		11DEA2CA29EE937B442170B7 /* MappIntelligenceSDK_iOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC443742A639E64DCD10E145 /* MappIntelligenceSDK_iOS.xcframework */; };
+		1694E744EADBEEAD6F0A493B /* AdjustSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A283692D9094B0B56E959C /* AdjustSdk.framework */; };
+		21D1AE972375E18F595007F4 /* MItest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896381BFC3CC1448EFB26645 /* MItest.swift */; };
+		26F18B3936C511CFD1A29038 /* TAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD4A9187E735A20AC5AF77B /* TAppKit.framework */; };
+		4AD3768275F2750F7E154130 /* TAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD4A9187E735A20AC5AF77B /* TAppKit.framework */; };
+		4F8E3823ECD57C068AEB93FD /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B65457F0EFE078AC39B44 /* AppTests.swift */; };
+		5032DBDD927C4B693F5B1C57 /* TAppKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD4A9187E735A20AC5AF77B /* TAppKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5378FDFF80A3C8C3AB0C8064 /* TAppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35559C81456F9622CBD8B4A3 /* TAppKit.swift */; };
+		55F37F0363EF3AD1234C4A88 /* AdjustSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A283692D9094B0B56E959C /* AdjustSdk.framework */; };
+		67DA924417381B7B6937A280 /* TAppUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 033003F0CE24894FA5C0F0C7 /* TAppUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6CF72029D4536FAA3B83AC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58F5A416C9AFA94895CA804 /* LaunchScreen.storyboard */; };
+		6EE5650A3111418F2E18FE05 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0D1395738F2F92CABC0438F /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A719113CF00FD503B8B39E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C8C5B0C83D077B8776E9C7 /* AppDelegate.swift */; };
+		7CF450C3C20CA699966EC43C /* TuistBundle+TApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99388D62C81DFC9470CAFEF7 /* TuistBundle+TApp.swift */; };
+		8B597C9701C4B24423011C4D /* TAppUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA23EB3F44CB5A47BCAB7BAD /* TAppUI.swift */; };
+		A982DE79C34BAD9C934AA524 /* TAppUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033003F0CE24894FA5C0F0C7 /* TAppUI.framework */; };
+		A98CB3E3F657058DA93FE9CF /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D1395738F2F92CABC0438F /* Alamofire.xcframework */; };
+		AECD27E07F231A87DDAF3A85 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D1395738F2F92CABC0438F /* Alamofire.xcframework */; };
+		BB10EEDF7E547C7F3B1FA8A9 /* MappIntelligenceSDK_iOS.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC443742A639E64DCD10E145 /* MappIntelligenceSDK_iOS.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C7F6AFE24EFCA5041E1B1844 /* TAppUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033003F0CE24894FA5C0F0C7 /* TAppUI.framework */; };
+		D40FE9FB6A523E8699F501D2 /* TAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67585B86F9E6F0BF734A7101 /* TAppUITests.swift */; };
+		F61011C1057B3D21A112231A /* MappIntelligenceSDK_iOS.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC443742A639E64DCD10E145 /* MappIntelligenceSDK_iOS.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349F64A4608B0B4962427851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE95EEB83F5CA7F1ADA215B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7968C43019A84630C72E5A07;
+			remoteInfo = TAppUI;
+		};
+		3F91B46AF48480F8312C7BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE95EEB83F5CA7F1ADA215B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7968C43019A84630C72E5A07;
+			remoteInfo = TAppUI;
+		};
+		5CE90CD26AFA0731B8EEF27E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE95EEB83F5CA7F1ADA215B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E688AD1E67721C54F54ECE1;
+			remoteInfo = TApp;
+		};
+		61120316FCA6109E0D9990E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE95EEB83F5CA7F1ADA215B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4BD89926C54F10E91E21C0;
+			remoteInfo = TAppKit;
+		};
+		B8FCB3842FB3025F39206A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE95EEB83F5CA7F1ADA215B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4BD89926C54F10E91E21C0;
+			remoteInfo = TAppKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B9BC72F1EECDC8ACFADE323 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E92996CF64E5061FD2126B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5032DBDD927C4B693F5B1C57 /* TAppKit.framework in Embed Frameworks */,
+				67DA924417381B7B6937A280 /* TAppUI.framework in Embed Frameworks */,
+				6EE5650A3111418F2E18FE05 /* Alamofire.xcframework in Embed Frameworks */,
+				BB10EEDF7E547C7F3B1FA8A9 /* MappIntelligenceSDK_iOS.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC71D10FA9D243D150E21C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84018D2D58C137FC0CEB30DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDCEBF2FE06AC2B8EA0F123 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF56063BF94EE8FF09C1022D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		033003F0CE24894FA5C0F0C7 /* TAppUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TAppUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B65457F0EFE078AC39B44 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		270229FD83C73E3F073EA59C /* TApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TApp-Info.plist"; sourceTree = "<group>"; };
+		35559C81456F9622CBD8B4A3 /* TAppKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAppKit.swift; sourceTree = "<group>"; };
+		3DD4A9187E735A20AC5AF77B /* TAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41452F5725EBC1422A95A755 /* TAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43279531E61C4AA81513E424 /* TAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TAppTests-Info.plist"; sourceTree = "<group>"; };
+		584E7D05B8814F9DC9709D8D /* TAppKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TAppKit-Info.plist"; sourceTree = "<group>"; };
+		60902673446991F30E89BC83 /* TAppUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TAppUITests-Info.plist"; sourceTree = "<group>"; };
+		65B3D52F01C71E9AE7FD08BF /* TAppUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TAppUI-Info.plist"; sourceTree = "<group>"; };
+		67585B86F9E6F0BF734A7101 /* TAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAppUITests.swift; sourceTree = "<group>"; };
+		896381BFC3CC1448EFB26645 /* MItest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MItest.swift; sourceTree = "<group>"; };
+		9309164712B73E01E2F8DDEE /* TAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97268D2400C95642CAE286C4 /* TAppKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TAppKitTests-Info.plist"; sourceTree = "<group>"; };
+		99388D62C81DFC9470CAFEF7 /* TuistBundle+TApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+TApp.swift"; sourceTree = "<group>"; };
+		9F2BA051F4F7135D2015D965 /* TApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C8C5B0C83D077B8776E9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5A283692D9094B0B56E959C /* AdjustSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdjustSdk.framework; sourceTree = "<group>"; };
+		C6572B273CA72D5B06BDB606 /* TAppKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAppKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC443742A639E64DCD10E145 /* MappIntelligenceSDK_iOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MappIntelligenceSDK_iOS.xcframework; sourceTree = "<group>"; };
+		E0D1395738F2F92CABC0438F /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Alamofire.xcframework; sourceTree = "<group>"; };
+		E34A7F4B3BA15CADFF6111F4 /* TAppKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAppKitTests.swift; sourceTree = "<group>"; };
+		EA23EB3F44CB5A47BCAB7BAD /* TAppUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAppUI.swift; sourceTree = "<group>"; };
+		F58F5A416C9AFA94895CA804 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FDCA7EE4D3D249B5AE3807C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD3768275F2750F7E154130 /* TAppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9CA6393034D11E5E89B0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F18B3936C511CFD1A29038 /* TAppKit.framework in Frameworks */,
+				C7F6AFE24EFCA5041E1B1844 /* TAppUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5033256B142A0A20F07A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1694E744EADBEEAD6F0A493B /* AdjustSdk.framework in Frameworks */,
+				A98CB3E3F657058DA93FE9CF /* Alamofire.xcframework in Frameworks */,
+				11DEA2CA29EE937B442170B7 /* MappIntelligenceSDK_iOS.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809C79224C0662E38DE73E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F37F0363EF3AD1234C4A88 /* AdjustSdk.framework in Frameworks */,
+				AECD27E07F231A87DDAF3A85 /* Alamofire.xcframework in Frameworks */,
+				F61011C1057B3D21A112231A /* MappIntelligenceSDK_iOS.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D408FD16E40E5AB2CBA62A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB284DF7A77A4D8A0E438F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A982DE79C34BAD9C934AA524 /* TAppUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B280389A89A2E4CBB7D4EB5 /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				270229FD83C73E3F073EA59C /* TApp-Info.plist */,
+				584E7D05B8814F9DC9709D8D /* TAppKit-Info.plist */,
+				97268D2400C95642CAE286C4 /* TAppKitTests-Info.plist */,
+				43279531E61C4AA81513E424 /* TAppTests-Info.plist */,
+				65B3D52F01C71E9AE7FD08BF /* TAppUI-Info.plist */,
+				60902673446991F30E89BC83 /* TAppUITests-Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		15B3FC0DEDFECC6750577BCA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67585B86F9E6F0BF734A7101 /* TAppUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		174B1517E937FE3955EE7258 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				685C8A2C54AAF55B04042CCA /* Binary */,
+				9FCAE0229DF72699A342A08C /* Carthage */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		1E9C262B694B3C6EA837CD61 /* TApp */ = {
+			isa = PBXGroup;
+			children = (
+				D58644B97F03A7B12F398581 /* Resources */,
+				A4A1CA5A268CEB8D519C6FE4 /* Sources */,
+				D7970F8DB006EA7CB60C42D5 /* Tests */,
+			);
+			path = TApp;
+			sourceTree = "<group>";
+		};
+		20FAB0826B50A8C61E26A4D3 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				92B2D7FCA8724A4F979148BE /* Derived */,
+				CBE39B61EE5CC6844B190C4C /* Targets */,
+				8F6CAAE01F6DAFED0F86E272 /* Tuist */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		234DFBABED226D4C5071BCE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36FD53BBD9CE4DABDF52F87D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E34A7F4B3BA15CADFF6111F4 /* TAppKitTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		4485E6AE1540690CBAE9FB6B = {
+			isa = PBXGroup;
+			children = (
+				20FAB0826B50A8C61E26A4D3 /* Project */,
+				234DFBABED226D4C5071BCE2 /* Frameworks */,
+				554D83C32B730D6E7884CA8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		554D83C32B730D6E7884CA8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2BA051F4F7135D2015D965 /* TApp.app */,
+				3DD4A9187E735A20AC5AF77B /* TAppKit.framework */,
+				C6572B273CA72D5B06BDB606 /* TAppKitTests.xctest */,
+				41452F5725EBC1422A95A755 /* TAppTests.xctest */,
+				033003F0CE24894FA5C0F0C7 /* TAppUI.framework */,
+				9309164712B73E01E2F8DDEE /* TAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578D28485EFEA221C0FED520 /* TAppKit */ = {
+			isa = PBXGroup;
+			children = (
+				B0A16CAED349C0B6BB205935 /* Sources */,
+				36FD53BBD9CE4DABDF52F87D /* Tests */,
+			);
+			path = TAppKit;
+			sourceTree = "<group>";
+		};
+		5C92D060C4B3D98E6BE22715 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				99388D62C81DFC9470CAFEF7 /* TuistBundle+TApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5F79BE6F986435B636950044 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				E0D1395738F2F92CABC0438F /* Alamofire.xcframework */,
+				CC443742A639E64DCD10E145 /* MappIntelligenceSDK_iOS.xcframework */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		685C8A2C54AAF55B04042CCA /* Binary */ = {
+			isa = PBXGroup;
+			children = (
+				C5A283692D9094B0B56E959C /* AdjustSdk.framework */,
+			);
+			path = Binary;
+			sourceTree = "<group>";
+		};
+		8F6CAAE01F6DAFED0F86E272 /* Tuist */ = {
+			isa = PBXGroup;
+			children = (
+				174B1517E937FE3955EE7258 /* Dependencies */,
+			);
+			path = Tuist;
+			sourceTree = "<group>";
+		};
+		92B2D7FCA8724A4F979148BE /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				0B280389A89A2E4CBB7D4EB5 /* InfoPlists */,
+				5C92D060C4B3D98E6BE22715 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		9FCAE0229DF72699A342A08C /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				5F79BE6F986435B636950044 /* Build */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+		A4A1CA5A268CEB8D519C6FE4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A1C8C5B0C83D077B8776E9C7 /* AppDelegate.swift */,
+				896381BFC3CC1448EFB26645 /* MItest.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B0A16CAED349C0B6BB205935 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				35559C81456F9622CBD8B4A3 /* TAppKit.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C1B070F9A6150D6E31E3EBDB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EA23EB3F44CB5A47BCAB7BAD /* TAppUI.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CBE39B61EE5CC6844B190C4C /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				1E9C262B694B3C6EA837CD61 /* TApp */,
+				578D28485EFEA221C0FED520 /* TAppKit */,
+				F1C7659FE362603892416A7E /* TAppUI */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		D58644B97F03A7B12F398581 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F58F5A416C9AFA94895CA804 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7970F8DB006EA7CB60C42D5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				046B65457F0EFE078AC39B44 /* AppTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F1C7659FE362603892416A7E /* TAppUI */ = {
+			isa = PBXGroup;
+			children = (
+				C1B070F9A6150D6E31E3EBDB /* Sources */,
+				15B3FC0DEDFECC6750577BCA /* Tests */,
+			);
+			path = TAppUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E688AD1E67721C54F54ECE1 /* TApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E1EAD119AD84BDE2724299F /* Build configuration list for PBXNativeTarget "TApp" */;
+			buildPhases = (
+				73ECA333469AC95899CCE5A1 /* Sources */,
+				95E3841E6175F2138877E898 /* Resources */,
+				26E92996CF64E5061FD2126B /* Embed Frameworks */,
+				2F9CA6393034D11E5E89B0F0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09208C994338A4F39CCCC12D /* PBXTargetDependency */,
+				9974D39EDC3BB4E33E7AF56C /* PBXTargetDependency */,
+			);
+			name = TApp;
+			productName = TApp;
+			productReference = 9F2BA051F4F7135D2015D965 /* TApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		763B1C80E6764AD89609B665 /* TAppKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302CDC34413AC767475FA34F /* Build configuration list for PBXNativeTarget "TAppKitTests" */;
+			buildPhases = (
+				02B1A6A8459F73FA054760F9 /* Sources */,
+				D12E5C3BD4409D3E9F83BA0D /* Resources */,
+				9DDCEBF2FE06AC2B8EA0F123 /* Embed Frameworks */,
+				1FDCA7EE4D3D249B5AE3807C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED9AE0D9BA4B8FE5665F677 /* PBXTargetDependency */,
+			);
+			name = TAppKitTests;
+			productName = TAppKitTests;
+			productReference = C6572B273CA72D5B06BDB606 /* TAppKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7968C43019A84630C72E5A07 /* TAppUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C2C91BDB75314BDA5F356E /* Build configuration list for PBXNativeTarget "TAppUI" */;
+			buildPhases = (
+				A4AA9272C9BED889AB3E26F2 /* Sources */,
+				BC211748CC32465B00FDAF6B /* Resources */,
+				4DC71D10FA9D243D150E21C9 /* Embed Frameworks */,
+				809C79224C0662E38DE73E8B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAppUI;
+			productName = TAppUI;
+			productReference = 033003F0CE24894FA5C0F0C7 /* TAppUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DB0FDB78A79DC08B77624C7 /* TAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD60900EE139AFA0738B50F /* Build configuration list for PBXNativeTarget "TAppTests" */;
+			buildPhases = (
+				92E2BA211AA1F07D3155ABF0 /* Sources */,
+				72DF33AC203555455A7F50DE /* Resources */,
+				0B9BC72F1EECDC8ACFADE323 /* Embed Frameworks */,
+				D408FD16E40E5AB2CBA62A89 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D348E09ACD49AE1B16A6F9 /* PBXTargetDependency */,
+			);
+			name = TAppTests;
+			productName = TAppTests;
+			productReference = 41452F5725EBC1422A95A755 /* TAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F4BD89926C54F10E91E21C0 /* TAppKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E496CCD4D7E0764B08D032 /* Build configuration list for PBXNativeTarget "TAppKit" */;
+			buildPhases = (
+				ED31CA4200BC11278EB432A0 /* Sources */,
+				6653A1E99F37C88E869ABDEA /* Resources */,
+				DF56063BF94EE8FF09C1022D /* Embed Frameworks */,
+				6F5033256B142A0A20F07A7A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAppKit;
+			productName = TAppKit;
+			productReference = 3DD4A9187E735A20AC5AF77B /* TAppKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E64E04F280E74799F533F5D /* TAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 751E48819EF7F10393DE9801 /* Build configuration list for PBXNativeTarget "TAppUITests" */;
+			buildPhases = (
+				D88085249E6035A6AEF814B7 /* Sources */,
+				D38D87A8CB8F953E64E3D689 /* Resources */,
+				84018D2D58C137FC0CEB30DE /* Embed Frameworks */,
+				DB284DF7A77A4D8A0E438F70 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14F828AEE3F84D03BDFC828 /* PBXTargetDependency */,
+			);
+			name = TAppUITests;
+			productName = TAppUITests;
+			productReference = 9309164712B73E01E2F8DDEE /* TAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBE95EEB83F5CA7F1ADA215B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = tuist.io;
+				TargetAttributes = {
+					8DB0FDB78A79DC08B77624C7 = {
+						TestTargetID = 3E688AD1E67721C54F54ECE1;
+					};
+				};
+			};
+			buildConfigurationList = AAFD14C67574ABA41EA74C25 /* Build configuration list for PBXProject "TApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4485E6AE1540690CBAE9FB6B;
+			productRefGroup = 554D83C32B730D6E7884CA8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E688AD1E67721C54F54ECE1 /* TApp */,
+				8DB0FDB78A79DC08B77624C7 /* TAppTests */,
+				8F4BD89926C54F10E91E21C0 /* TAppKit */,
+				763B1C80E6764AD89609B665 /* TAppKitTests */,
+				7968C43019A84630C72E5A07 /* TAppUI */,
+				9E64E04F280E74799F533F5D /* TAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6653A1E99F37C88E869ABDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DF33AC203555455A7F50DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E3841E6175F2138877E898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF72029D4536FAA3B83AC0D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC211748CC32465B00FDAF6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12E5C3BD4409D3E9F83BA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38D87A8CB8F953E64E3D689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B1A6A8459F73FA054760F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B783044BA6F8DD57B39B91C /* TAppKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73ECA333469AC95899CCE5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF450C3C20CA699966EC43C /* TuistBundle+TApp.swift in Sources */,
+				7A719113CF00FD503B8B39E2 /* AppDelegate.swift in Sources */,
+				21D1AE972375E18F595007F4 /* MItest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E2BA211AA1F07D3155ABF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8E3823ECD57C068AEB93FD /* AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AA9272C9BED889AB3E26F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B597C9701C4B24423011C4D /* TAppUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88085249E6035A6AEF814B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40FE9FB6A523E8699F501D2 /* TAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED31CA4200BC11278EB432A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5378FDFF80A3C8C3AB0C8064 /* TAppKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09208C994338A4F39CCCC12D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAppKit;
+			target = 8F4BD89926C54F10E91E21C0 /* TAppKit */;
+			targetProxy = B8FCB3842FB3025F39206A47 /* PBXContainerItemProxy */;
+		};
+		9974D39EDC3BB4E33E7AF56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAppUI;
+			target = 7968C43019A84630C72E5A07 /* TAppUI */;
+			targetProxy = 3F91B46AF48480F8312C7BCE /* PBXContainerItemProxy */;
+		};
+		C0D348E09ACD49AE1B16A6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TApp;
+			target = 3E688AD1E67721C54F54ECE1 /* TApp */;
+			targetProxy = 5CE90CD26AFA0731B8EEF27E /* PBXContainerItemProxy */;
+		};
+		E14F828AEE3F84D03BDFC828 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAppUI;
+			target = 7968C43019A84630C72E5A07 /* TAppUI */;
+			targetProxy = 349F64A4608B0B4962427851 /* PBXContainerItemProxy */;
+		};
+		EED9AE0D9BA4B8FE5665F677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TAppKit;
+			target = 8F4BD89926C54F10E91E21C0 /* TAppKit */;
+			targetProxy = 61120316FCA6109E0D9990E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18460F71B1480246B18348B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Tuist/Dependencies/Binary",
+					"$(SRCROOT)/Tuist/Dependencies/Carthage/Build",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppUI;
+				PRODUCT_NAME = TAppUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2746385D9414E355ABE164DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D3C3E2A9CCB61546CB14C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Tuist/Dependencies/Binary",
+					"$(SRCROOT)/Tuist/Dependencies/Carthage/Build",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppKit;
+				PRODUCT_NAME = TAppKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EF387856824E71A983495CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(SRCROOT)/Tuist/Dependencies/Carthage/Build",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppUITests;
+				PRODUCT_NAME = TAppUITests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4581AF5823C4FAE672877A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Tuist/Dependencies/Binary",
+					"$(SRCROOT)/Tuist/Dependencies/Carthage/Build",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppUI;
+				PRODUCT_NAME = TAppUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50682822D4D8E59F49FC9DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TApp;
+				PRODUCT_NAME = TApp;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F371A78DA488CC14F87648A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppTests;
+				PRODUCT_NAME = TAppTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TApp.app/TApp";
+				TEST_TARGET_NAME = TApp;
+			};
+			name = Debug;
+		};
+		AEBEBECBBC7B4CB1C731AC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3E6F213D45387EEE541738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppTests;
+				PRODUCT_NAME = TAppTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TApp.app/TApp";
+				TEST_TARGET_NAME = TApp;
+			};
+			name = Release;
+		};
+		B910ACA6B4FAB68F7714E428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Tuist/Dependencies/Binary",
+					"$(SRCROOT)/Tuist/Dependencies/Carthage/Build",
+				);
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppKit;
+				PRODUCT_NAME = TAppKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBFBE3A77CAC15ACB8D085DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(SRCROOT)/Tuist/Dependencies/Carthage/Build",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppKitTests;
+				PRODUCT_NAME = TAppKitTests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE70028963E52F9486AFC4DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Derived/InfoPlists/TApp-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TApp;
+				PRODUCT_NAME = TApp;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBD6D9589DA8E4D64916BCED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppKitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(SRCROOT)/Tuist/Dependencies/Carthage/Build",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppKitTests;
+				PRODUCT_NAME = TAppKitTests;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F34E2B50169CB0AEE94A35B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Derived/InfoPlists/TAppUITests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(SRCROOT)/Tuist/Dependencies/Carthage/Build",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.tuist.TAppUITests;
+				PRODUCT_NAME = TAppUITests;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E1EAD119AD84BDE2724299F /* Build configuration list for PBXNativeTarget "TApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50682822D4D8E59F49FC9DCC /* Debug */,
+				BE70028963E52F9486AFC4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302CDC34413AC767475FA34F /* Build configuration list for PBXNativeTarget "TAppKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD6D9589DA8E4D64916BCED /* Debug */,
+				BBFBE3A77CAC15ACB8D085DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E496CCD4D7E0764B08D032 /* Build configuration list for PBXNativeTarget "TAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3C3E2A9CCB61546CB14C74 /* Debug */,
+				B910ACA6B4FAB68F7714E428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59C2C91BDB75314BDA5F356E /* Build configuration list for PBXNativeTarget "TAppUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4581AF5823C4FAE672877A2B /* Debug */,
+				18460F71B1480246B18348B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD60900EE139AFA0738B50F /* Build configuration list for PBXNativeTarget "TAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F371A78DA488CC14F87648A /* Debug */,
+				B3E6F213D45387EEE541738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		751E48819EF7F10393DE9801 /* Build configuration list for PBXNativeTarget "TAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF387856824E71A983495CE /* Debug */,
+				F34E2B50169CB0AEE94A35B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFD14C67574ABA41EA74C25 /* Build configuration list for PBXProject "TApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBEBECBBC7B4CB1C731AC9E /* Debug */,
+				2746385D9414E355ABE164DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBE95EEB83F5CA7F1ADA215B /* Project object */;
+}
